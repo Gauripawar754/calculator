@@ -1,0 +1,73 @@
+
+/*
+body::-webkit-scrollbar {
+    display: none;}
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;  /* Set width to 100% of the viewport */
+     /*   height: 100vh; /* Set height to 100% of the viewport */
+      /*  overflow: hidden; /* Ensures no overflow */
+      
+button {
+    height: 60px;
+    width: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(216, 198, 198);
+    font-size: 2rem;
+    font-weight: bolder;
+    cursor:pointer;
+    margin-bottom: 10px;
+}
+ #keys{
+display:grid;
+grid-template-columns: repeat(4,0.7fr);
+gap:2px;
+padding: 15px;
+margin-bottom:10px;}
+
+ #calculator {
+    font-family:Arial,  sans-serif ;
+    background-color:rgb(37, 29, 29) ;
+    border-radius: 0px;
+   border-style: groove;
+    overflow:hidden;
+    border-width: 10px;
+ }
+ #display{
+    margin-top:20px ;
+    width:415px;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: left;
+    border: none;
+    background-color:rgb(161, 150, 150) ;
+    color:black;
+ }
+body{
+    margin:0px;;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size:4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    opacity:0.8;
+}
+button:active{
+    opacity: 0.4;}
+
+    .operator-btn{
+        background-color:rgb(235, 171, 93);
+    }
+    .operator-btn:hover{
+        opacity: 0.8;
+    }
+    .operator-btn:active{
+        opacity: 0.4;
+    }
